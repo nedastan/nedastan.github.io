@@ -1,0 +1,115 @@
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .topline_block {
+        align-items: center;
+    }
+    .topline_girl {
+        display: none;
+    }
+    .topline_item:nth-child(2) {
+        transform: translateY(20%);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .features_icons {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .features_item {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_block {
+        flex-wrap: wrap;
+    }
+    .about_item {
+        width: 100%;
+    }
+    .about_item:nth-child(1) {
+        margin-bottom: 50px;
+    }
+    .about_item > img {
+        width: 100%;
+    }
+    .about_item:nth-child(2)::after {
+        width: 100%;
+    }
+    .features_item {
+        width: 100%;
+    }
+    .need_block {
+        flex-wrap: wrap;
+    }
+    .need_item {
+        width: 100%;
+    }
+    .need_item:nth-child(1) {
+        margin-bottom: 50px;
+    }
+    .need_item > img {
+        width: 100%;
+    }
+    .need_item:first-child::before {
+        width: 100%;
+    }
+    .footer_block {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form_block {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .header_menu.active {
+        width: 100%;
+    }
+    .header {
+        height: 70px;
+    }
+    .hamburger {
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .topline_img {
+        width: 100%;
+    }
+    .topline_heading {
+        text-align: center;
+        font-size: 30px;
+    }
+    .topline_text {
+        text-align: center;
+        font-size: 20px;
+    }
+    .exp_block > p {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .form_block {
+        padding: 70px 30px;
+    }
+    .need_item > ul {
+        padding: 0;
+    }
+    .topline_link {
+        font-size: 16px;
+    }
+    .need_list {
+        font-size: 18px;
+    }
+}
